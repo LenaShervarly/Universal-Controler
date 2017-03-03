@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Convertor Easy To Go</string>
+    <string name="input_meters">Define meters to convert</string>
+    <string name="result">Result </string>
+    <string name="selecting_values_to_convert_to">Select target mesure type</string>
+    <string-array name="options_to_convert_from_distances">
+        <item>Please select a value to convert from</item>
+        <item>meters</item>
+        <item>centimeters</item>
+        <item>kilometers</item>
+        <item>foots</item>
+        <item>inches</item>
+        <item>yards</item>
+        <item>miles</item>
+    </string-array>
+
+    <string-array name="options_to_convert_from_weights">
+        <item>Please select a value to convert from</item>
+        <item>kilograms</item>
+        <item>grams</item>
+        <item>ounce</item>
+        <item>pound</item>
+    </string-array>
+
+    <string-array name="options_to_convert_from_volumes">
+        <item>Please select a value to convert from</item>
+        <item>litre</item>
+        <item>pint</item>
+        <item>fluid ounce</item>
+        <item>gallon</item>
+    </string-array>
+
+    <string-array name="options_to_convert_to_distances">
+        <item>Please select a value to convert to</item>
+        <item>meters</item>
+        <item>centimeters</item>
+        <item>kilometers</item>
+        <item>foots</item>
+        <item>inches</item>
+        <item>yards</item>
+        <item>miles</item>
+    </string-array>
+
+    <string-array name="options_to_convert_to_weights">
+        <item>Please select a value to convert to</item>
+        <item>kilograms</item>
+        <item>grams</item>
+        <item>ounce</item>
+        <item>pound</item>
+    </string-array>
+
+    <string-array name="options_to_convert_to_volumes">
+        <item>Please select a value to convert to</item>
+        <item>litre</item>
+        <item>pint</item>
+        <item>fluid ounce</item>
+        <item>gallon</item>
+    </string-array>
+
+</resources>

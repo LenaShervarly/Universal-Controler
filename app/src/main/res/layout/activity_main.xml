@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:text="Please choose the type of mesures you would like to convert: \n"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorDarkRed">
+        <RadioButton
+            android:id="@+id/distances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="distances"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/weights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="weights"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/volumes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="volumes"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <TextView
+        android:text="\n Converting from:"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0" />
+
+
+    <Spinner
+        android:id="@+id/spinner_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkRed"
+        android:textAlignment="center"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Converting to:"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0" />
+
+    <Spinner
+        android:id="@+id/my_spinner_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkRed"
+        android:textAlignment="center"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.4">
+
+        <EditText android:id="@+id/input_message"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convert"
+            android:background="@color/colorButton"
+            android:onClick="convert"/>
+
+    </LinearLayout>
+
+    <EditText android:id="@+id/result_message"
+        android:layout_width="match_parent"
+        android:hint="@string/result"
+        android:background="@color/colorDarkRed"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="end"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
