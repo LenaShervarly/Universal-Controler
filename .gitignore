@@ -7,13 +7,8 @@
 /build
 /captures
 .externalNativeBuild
-gradlew.*
-Universal_Convertor.iml
-/gradle
-.idea/
-build.*
-gradle.*
-settings.gradle
-build.gradle
-gradle.properties
+app/build
+.idea
+gradle
 gradlew
+gradlew.bat
